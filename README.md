@@ -1,7 +1,9 @@
 # convremvw-loader
 
 Rem or vm conversion
-可以转换 rem 又可以转换 vm 的 loader ##安装
+可以转换 rem 又可以转换 vm 的 loader 
+
+## 安装
 
 ```
 npm install convremvw-loader
