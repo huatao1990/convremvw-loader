@@ -20,7 +20,7 @@ function resize () {
 		}
 	})
 ```
-##参数
+## 参数
 ```
 module: {
   rules: [{
