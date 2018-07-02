@@ -17,7 +17,7 @@ module.exports = function (source) {
         }
     }
     var query = Object.assign({},{
-        unit: 'rem',
+        unit: 'rem'
     },getQueryString(this.query));
     var matchPXExp = /([0-9.]+px)([;,| |}|'|"\)\r|\n])/g;
 
