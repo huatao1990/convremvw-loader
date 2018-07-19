@@ -12,15 +12,15 @@ npm install convremvw-loader
 默认转换 rem，如果是 rem 还需引入来进行根元素font-size的变化
 
 ```
-function resize () {
-			document.documentElement.setAttribute('style', 'font-size:'+document.documentElement.clientWidth / 7.5 + 'px !important');
+function resize() {
+    document.documentElement.setAttribute('style', 'font-size:' + document.documentElement.clientWidth / 7.5 + 'px !important');
 }
-		document.addEventListener('DOMContentLoaded',function() {
-				resize()
-		window.onresize = function() {
-			resize()
-		}
-	})
+document.addEventListener('DOMContentLoaded', function () {
+    resize()
+    window.onresize = function () {
+        resize()
+    }
+})
 ```
 ## 参数
 ```
