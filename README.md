@@ -13,7 +13,8 @@ npm install convremvw-loader
 
 ```
 function resize() {
-    document.documentElement.setAttribute('style', 'font-size:' + document.documentElement.clientWidth / 7.5 + 'px !important');
+      let dom = document.documentElement||document.body
+    dom.setAttribute('style', 'font-size:' + dom.clientWidth / 7.5 + 'px !important');
 }
 document.addEventListener('DOMContentLoaded', function () {
     resize()
